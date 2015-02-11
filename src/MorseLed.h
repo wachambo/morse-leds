@@ -24,6 +24,8 @@ MorseLed:MorseLed(int pin)
 	_pin = pin;
 }
 
+/** Emule a dot 
+ */
 void MorseLed::dot()
 {
 	digitalWrite(_pin, HIGH);
@@ -32,6 +34,8 @@ void MorseLed::dot()
 	delay(250);  
 }
 
+/** Emule a dash 
+ */
 void MorseLed::dash()
 {
 	digitalWrite(_pin, HIGH);
